@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+        <link rel="stylesheet" href="css/home.css" type="text/css">
+        <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script> 
+        <script src = "custom.js"></script>
+        <title>Adventour-Destinations</title>
+        <link rel="shortcut icon" href="Images/favicon.ico">
+    </head>
+
+    <body>
+        <nav>
+            <div class="desktop-menu">
+                <div class="logo">
+                    <a href="home.html"><img src="Images/logo.png" alt="logo" ></a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li class="destinations"><a href="destinations.html" class="active">Destinations</a>
+                        <ul class="des-list">
+                            <li><a href="destinations.html">USA</a></li>
+                            <li><a href="destinations.html">Canada</a></li>
+                            <li><a href="destinations.html">India</a></li>
+                            <li><a href="destinations.html">Germany</a></li>
+                            <li><a href="destinations.html">Greece</a></li>
+                            <li><a href="destinations.html">France</a></li>
+                            <li><a href="destinations.html">Italy</a></li>
+                            <li><a href="destinations.html">Australia</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="blogs.html">Blogs</a></li>
+                    <li><a href="booking.html" class="book">Book Now</a></li>
+                </ul>
+            </div>
+            
+            <div class="mob-menu">
+                <div class="logo">
+                    <a href="home.html"><img src="Images/logo.png" alt="logo" ></a>
+                </div>
+                <div class="sub-menu">
+                    <ul class="nav-links">
+                        <li><a><img src="Images/menu.png" alt="menu" height="30px" width="30px"></a>
+                            <div class="nav-list">
+                                <ul>
+                                    <li><a href="home.html">Home</a></li>
+                                    <li class="destinations"><a href="destinations.html">Destinations</a>
+                                        <ul class="des-list">
+                                            <li><a href="destinations.html">USA</a></li>
+                                            <li><a href="destinations.html">Canada</a></li>
+                                            <li><a href="destinations.html">India</a></li>
+                                            <li><a href="destinations.html">Germany</a></li>
+                                            <li><a href="destinations.html">Greece</a></li>
+                                            <li><a href="destinations.html">France</a></li>
+                                            <li><a href="destinations.html">Italy</a></li>
+                                            <li><a href="destinations.html">Australia</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="blogs.html">Blogs</a></li><br>
+                                    <li><a href="booking.html" class="book">Book Now</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Slide -->
+        <header>
+            <div class="des-header-info">
+                <img src = "Images/usa-header.jpg" width="100%" height="400px" alt="Header Image">
+                <div class="des-header-text">
+                    <h1>USA HOLIDAY PACKAGES </h1>
+                    <div class="des-service">
+                        <ul>
+                            <li>
+                                <img src="images/flight.png" width="50px" height="50px" alt="flight"><br>
+                                <h6>Flights</h6>
+                            </li>
+                            <li>
+                                <img src="images/bed.png" width="50px" height="50px" alt="bed"><br>
+                                <h6>Accommodations</h6>
+                            </li>
+                            <li>
+                                <img src="images/binocular.png" width="50px" height="50px" alt="binocular"><br>
+                                <h6>Sightseeing</h6>
+                            </li>
+                            <li>
+                                <img src="images/meal.png" width="50px" height="50px" alt="meal"><br>
+                                <h6>Meals</h6><br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="expore-des">
+                        <ul>
+                            <li>packages available from<br><span class="price">$500 &nbsp;&nbsp;-&nbsp;&nbsp; $1500</span><br><span class="person"> Per person on twin sharing</span></li>
+                            <li><a href="#section1"><img src="images/down-arrow.png" alt="down arrow"></a></li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="loc-sort">
+                <select>
+                    <option value selected hidden>Activity Type</option>
+                    <option>Redwoods</option>
+                    <option>Hiking</option>
+                    <option>Beaches</option>
+                    <option>Water Activities</option>
+                    <option>Leisure</option>
+                    <option>Towns</option>
+                    <option>History</option>
+                    <option>tours & guides</option>
+                </select>
+                <select>
+                    <option value selected hidden>Location</option>
+                    <option class="opt">New york</option>
+                    <option class="opt">Las vegas</option>
+                    <option class="opt">Chicago</option>
+                    <option class="opt">los angeles</option>
+                     <option class="opt">San franscisco</option>
+                    <option class="opt">San Diago</option>
+                    <option class="opt">Miami</option>
+                </select>
+                <select>
+                    <option value selected hidden>Duration(in Days)</option>
+                    <option class="opt">3 to 4</option>
+                    <option class="opt">5 to 6</option>
+                    <option class="opt">7 to 8</option>
+                    <option class="opt">8 to 9</option>
+                    <option class="opt">9 to 10</option>
+                    <option class="opt">10 or more</option>
+                </select>
+                <select>
+                    <option value selected hidden>Month</option>
+                    <option class="opt">August 2020</option>
+                    <option class="opt">september 2020</option>
+                    <option class="opt">October 2020</option>
+                    <option class="opt">november 2020</option>
+                    <option class="opt">December 2020</option>
+                    <option class="opt">January 2021</option>
+                    <option class="opt">February 2021</option>
+                </select> 
+            </div>
+                 
+            <div class="pop-tour" id="section1">
+                <div class="tour-pack-title"><h1>USA Tour Packages</h1></div>
+               <a> 
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>USA PACKAGE</th>
+                                <th>PRICE<br><span class="option">(person on twin sharing)</span></th>
+                                <th>NIGHTS</th>
+                                <th>INCLUSIONS</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="col-1">Romantic USA</td>
+                                <td>$700</td>
+                                <td>6 Nights</td>
+                                <td>Meals, Transportations, Sightseeing, Accommodations</td>
+                                <td class="col-1"><a href="booking.html"><button>Book Now</button></a></td>
+                            </tr>
+                            <tr>
+                                <td class="col-1">Unforgettable USA</td>
+                                <td>$850</td>
+                                <td>4 Nights</td>
+                                <td>Meals, Transportations, Sightseeing, Accommodations</td>
+                                <td class="col-1"><a href="booking.html"><button>Book Now</button></a></td>
+                            </tr>
+                            <tr>
+                                <td class="col-1">Romantic USA with Montage Languna Beach Resort</td>
+                                <td>$1000</td>
+                                <td>6 Nights</td>
+                                <td>Meals, Transportations, Sightseeing, Accommodations</td>
+                                <td class="col-1"><a href="booking.html"><button>Book Now</button></a></td>
+                            </tr>
+                            <tr>
+                                <td class="col-1">Awesome USA- Honeymooner's Delight</td>
+                                <td>$1200</td>
+                                <td>8 Nights</td>
+                                <td>Meals, Transportations, Sightseeing, Accommodations</td>
+                                <td class="col-1"><a href="booking.html"><button>Book Now</button></a></td>
+                            </tr>
+                            <tr>
+                                <td class="col-1">Romantic USA with Orlando Resort</td>
+                                <td>$1500</td>
+                                <td>10 Nights</td>
+                                <td>Meals, Flights, Transportations, Sightseeing, Accommodations</td>
+                                <td class="col-1"><a href="booking.html"><button>Book Now</button></a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </a>
+            </div>
+            <div class="tour-pack-title"><h1>Popular USA Tour Packages</h1></div>
+
+            <div class="pack-sort ">
+                <p>sort by:</p>
+                <div class="sort-type">
+                    <a href="#">popular</a>
+                    <a href="#">recent</a>
+                    <a href="#">duration</a>
+                    <a href="#">price</a>
+                </div>
+            </div> 
+
+            <div class="tour-nums">
+                <div class="tour-img">
+                    <img src="images/usa-img1.jpg" alt="Usa">
+                </div>
+                <div class="tour-desc">
+                    <h1>Romantic USA</h1>
+                    <h4>7 Days/ 6 Nights</h4>
+                    <span class="city">Cities:</span> <span class="city-name">New York</span>
+                    <div class="adv-type">
+                        <a href="#">Adventure</a>
+                        <a href="#">Leisure</a>
+                        <a href="#">Hiking</a>
+                    </div>
+                    <div class="tour-facility">
+                        <ul>
+                            <li>
+                                <img src="images/hotel.png" width="40px" height="40px" alt="hotel">
+                                <h6>Hotel</h6>
+                            </li>
+                            <li>
+                                <img src="images/meal-1.png" width="40px" height="40px" alt="meal">
+                                <h6>Meal</h6>
+                            </li>
+                            <li>
+                                <img src="images/binoculars-1.png" width="40px" height="40px" alt="bincular">
+                                <h6>Sightseeing</h6>
+                            </li>
+                            <li>
+                                <img src="images/car.png" width="40px" height="40px" alt="car">
+                                <h6>Transfer</h6>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tour-price-desc">
+                    <div class="tour-price">
+                        <h1>$700*</h1>
+                        <h4>per person on twin sharing</h4>
+                    </div>
+                    <div class="tour-detail">
+                        <a href="#" class="view-detail">View Details</a>
+                        <a href="#" class="sub-detail">Get Quote!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-nums">
+                <div class="tour-img">
+                    <img src="images/usa-img2.jpg" alt="usa">
+                </div>
+                <div class="tour-desc">
+                    <h1>Unforgettable USA</h1>
+                    <h4>5 Days/ 4 Nights</h4>
+                    <span class="city">Cities:</span> <span class="city-name">Chicago</span>
+                    <div class="adv-type">
+                        <a href="#">Family</a>
+                        <a href="#">Town</a>
+                        <a href="#">Adventure</a>
+                    </div>
+                    <div class="tour-facility">
+                        <ul>
+                            <li>
+                                <img src="images/hotel.png" width="40px" height="40px" alt="hotel">
+                                <h6>Hotel</h6>
+                            </li>
+                            <li>
+                                <img src="images/meal-1.png" width="40px" height="40px" alt="meal">
+                                <h6>Meal</h6>
+                            </li>
+                            <li>
+                                <img src="images/binoculars-1.png" width="40px" height="40px" alt="bincular">
+                                <h6>Sightseeing</h6>
+                            </li>
+                            <li>
+                                <img src="images/car.png" width="40px" height="40px" alt="car">
+                                <h6>Transfer</h6>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tour-price-desc">
+                    <div class="tour-price">
+                        <h1>$850*</h1>
+                        <h4>per person on twin sharing</h4>
+                    </div>
+                    <div class="tour-detail">
+                        <a href="#" class="view-detail">View Details</a>
+                        <a href="#" class="sub-detail">Get Quote!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-nums">
+                <div class="tour-img">
+                    <img src="images/usa-3.jpg" alt="usa">
+                </div>
+                <div class="tour-desc">
+                    <h1>Awesome USA- Honeymooner's Delight</h1>
+                    <h4>9 Days/ 8 Nights</h4>
+                    <span class="city">Cities:</span> <span class="city-name">Las Vegas</span>
+                    <div class="adv-type">
+                        <a href="#">History</a>
+                        <a href="#">Leisure</a>
+                        <a href="#">Romance</a>
+                    </div>
+                    <div class="tour-facility">
+                        <ul>
+                            <li>
+                                <img src="images/hotel.png" width="40px" height="40px" alt="hotel">
+                                <h6>Hotel</h6>
+                            </li>
+                            <li>
+                                <img src="images/meal-1.png" width="40px" height="40px" alt="meal">
+                                <h6>Meal</h6>
+                            </li>
+                            <li>
+                                <img src="images/binoculars-1.png" width="40px" height="40px" alt="bincular">
+                                <h6>Sightseeing</h6>
+                            </li>
+                            <li>
+                                <img src="images/car.png" width="40px" height="40px" alt="car">
+                                <h6>Transfer</h6>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tour-price-desc">
+                    <div class="tour-price">
+                        <h1>$1000*</h1>
+                        <h4>per person on twin sharing</h4>
+                    </div>
+                    <div class="tour-detail">
+                        <a href="#" class="view-detail">View Details</a>
+                        <a href="#" class="sub-detail">Get Quote!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-nums">
+                <div class="tour-img">
+                    <img src="images/usa-img4.jpg" alt="usa">
+                </div>
+                <div class="tour-desc">
+                    <h1>Romantic USA with Orlando Resort</h1>
+                    <h4>11 Days/ 9 Nights</h4>
+                    <span class="city">Cities:</span> <span class="city-name">Miami</span>
+                    <div class="adv-type">
+                        <a href="#">Beaches</a>
+                        <a href="#">Resorts</a>
+                        <a href="#">Romance</a>
+                    </div>
+                    <div class="tour-facility">
+                        <ul>
+                            <li>
+                                <img src="images/hotel.png" width="40px" height="40px" alt="hotel">
+                                <h6>Hotel</h6>
+                            </li>
+                            <li>
+                                <img src="images/meal-1.png" width="40px" height="40px" alt="meal">
+                                <h6>Meal</h6>
+                            </li>
+                            <li>
+                                <img src="images/binoculars-1.png" width="40px" height="40px" alt="bincular">
+                                <h6>Sightseeing</h6>
+                            </li>
+                            <li>
+                                <img src="images/car.png" width="40px" height="40px" alt="car">
+                                <h6>Transfer</h6>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tour-price-desc">
+                    <div class="tour-price">
+                        <h1>$1500*</h1>
+                        <h4>per person on twin sharing</h4>
+                    </div>
+                    <div class="tour-detail">
+                        <a href="#" class="view-detail">View Details</a>
+                        <a href="#" class="sub-detail">Get Quote!</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="location-image">
+                <img src = "Images/room-512.png" width="64px" height="64px" alt="room"> 
+            </div>
+            <div class="location-desc">
+                <h1>WHERE TO STAY</h1>
+            </div>
+
+            <div class="des-loc">
+
+                <div class="des-image">
+                    <a href="#"><h1>CABINS & COTTAGES</h1>
+                    <img src="Images/cottage.jpg" width="275px" height="275px" alt="cottage"></a> 
+                </div>
+
+                <div class="des-image">
+                    <a href="#"><h1>RV PARKS & CAMPGROUNDS</h1>
+                    <img src="Images/camp.jpg" width="275px" height="275px" alt="camp"></a>   
+                </div>
+
+                <div class="des-image">
+                    <a href="#"><h1>HOTELS & MOTELS</h1>
+                    <img src="Images/hotel.jpg" width="275px" height="275px" alt="hotel"></a>   
+                </div>
+
+                <div class="des-image">
+                    <a href="#"><h1>BED & BREAKFASTS</h1>
+                    <img src="Images/house.jpg" width="275px" height="275px" alt="house"></a> 
+                </div>
+            </div>
+            <div class="more-desc">
+                <h1><a href = "#">VIEW MORE LODGING</a></h1>
+            </div>
+
+            <div class="usa-desc">
+                <h1>HOW ABOUT A SNEAK PEAK? </h1>
+                <P>Sometimes words just don't cut it. Let this videos take you directly to some of the most amazing places of USA. Fair warning... Even these videos don't do justice!</P>
+            </div>
+            <div class="usa-video">
+                <video controls>
+                    <source src="media/usa-tour.mp4" type="video/mp4">
+                </video>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-img">
+                <img src="images/Footer-img.jpg" alt="footer image" width="100%" height="350px">
+                <div class="footer-info">
+                    <div class="footer-vacation">
+                        <h1 class="text">Adventour</h1>
+                        <span class="slogan"> Experience. Tourism. These are as education in themselves.</span>
+                            
+                    </div>
+                    <div class="footer-information">
+                        <h1 class="text">Information</h1>
+                        <ul class="sub-text">
+                            <li>Online Enquiry</li>
+                            <li>General Enquiries</li>
+                            <li>Booking Conditions</li>
+                            <li>Privacy and Policy</li>
+                            <li>Refund Policy</li>
+                            <li>Call Us</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-Experience">
+                        <h1 class="text">Experience</h1>
+                        <ul class="sub-text">
+                            <li>Adventure</li>
+                            <li>Hotel and Restaurant</li>
+                            <li>Beach</li>
+                            <li>Nature</li>
+                            <li>Camping</li>
+                            <li>Party</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-question">
+                        <h1 class="text">Have a Question?</h1>
+                        <ul class="sub-text">
+                            <li class="contact"><a class="mob-contact" href="tel:888-555-5555">+1 254 6576 879</a>
+                                <span class="desktop-contact">+1 254 6576 879</span></li>
+                            <li class="email"><a href="mailto:contact@adventour.com" >contact@adventour.com</a></li>
+                        </ul>
+                        <div class="share-btn">
+                            <ul>
+                                <li><a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook"></a></li>
+                                <li><a href="https://www.instagram.com/?hl=en"><img src="images/instagram.png" alt="instagram"></a></li>
+                                <li><a href="https://twitter.com/"><img src="images/twitter.png" alt="twitter"></a></li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+                
+                <div class="copyright">
+                    <p>copyright &copy; 2020. All rights reserved. </p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

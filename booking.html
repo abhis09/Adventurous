@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" href="css/main.css" type="text/css">
+        <link rel="stylesheet" href="css/booking.css" type="text/css">
+        <title>Adventour-Book your plan</title>
+        <link rel="shortcut icon" href="Images/favicon.ico">
+    </head>
+
+    <body>
+        <nav>
+            <div class="desktop-menu">
+                <div class="logo">
+                    <a href="home.html"><img src="Images/logo.png" alt="logo" ></a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li class="destinations"><a href="destinations.html">Destinations</a>
+                        <ul class="des-list">
+                            <li><a href="destinations.html">USA</a></li>
+                            <li><a href="destinations.html">Canada</a></li>
+                            <li><a href="destinations.html">India</a></li>
+                            <li><a href="destinations.html">Germany</a></li>
+                            <li><a href="destinations.html">Greece</a></li>
+                            <li><a href="destinations.html">France</a></li>
+                            <li><a href="destinations.html">Italy</a></li>
+                            <li><a href="destinations.html">Australia</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="blogs.html">Blogs</a></li>
+                    <li><a href="booking.html" class="book">Book Now</a></li>
+                </ul>
+            </div>
+            
+            <div class="mob-menu">
+                <div class="logo">
+                    <a href="home.html"><img src="Images/logo.png" alt="logo" ></a>
+                </div>
+                <div class="sub-menu">
+                    <ul class="nav-links">
+                        <li><br><a><img src="Images/menu.png" alt="menu" height="30px" width="30px"></a>
+                            <div class="nav-list">
+                                <ul>
+                                    <li><a href="home.html">Home</a></li>
+                                    <li class="destinations"><a href="destinations.html">Destinations</a>
+                                        <ul class="des-list">
+                                            <li><a href="destinations.html">USA</a></li>
+                                            <li><a href="destinations.html">Canada</a></li>
+                                            <li><a href="destinations.html">India</a></li>
+                                            <li><a href="destinations.html">Germany</a></li>
+                                            <li><a href="destinations.html">Greece</a></li>
+                                            <li><a href="destinations.html">France</a></li>
+                                            <li><a href="destinations.html">Italy</a></li>
+                                            <li><a href="destinations.html">Australia</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="blogs.html">Blogs</a></li><br>
+                                    <li><a href="booking.html" class="book">Book Now</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <div class="booking-form">
+                <img src="images/book.jpg" width="100%" height="1100px" alt="booking-img">
+                <div class="form-details">
+                    <h1>Book Your Plan</h1>
+                    <div class="fill-form">
+                        <form>
+                            <div class="row">
+                                <label class="name">Country, Zip, City
+                                    <input type="text" placeholder="Country, Zip, City" required>
+                                </label>
+                            </div>
+                            <div class="row-1">
+                                <div class="sub-row">
+                                    <label> Departure Date
+                                        <input type="Date">
+                                    </label> 
+                                </div>
+                                <div class="sub-row">
+                                    <label> Arrival Date
+                                        <input type="Date">
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="row-3">
+                                <div class="sub-row">
+                                    <label>
+                                        <input type="radio" name="flexible"> I'm flexible on Dates
+                                    </label> 
+                                </div>
+                                <div class="sub-row">
+                                    <label>
+                                        <input type="radio" name="flexible"> I'm not flexible on Dates
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="row-3">
+                                <div class="sub-row">
+                                    <label> Tour Packages
+                                        <select required>
+                                            <option value selected hidden>Tour Packages</option>
+                                            <option>Romantic USA</option>
+                                            <option>Unforgettable USA</option>
+                                            <option>Romantic USA with Montage Languna Beach Resort</option>
+                                            <option>Awesome USA- Honeymooner's Delight</option>
+                                            <option>Romantic USA with Orlando Resort</option>
+                                        </select>
+                                    </label> 
+                                </div>
+                                <div class="sub-row">
+                                    <label> Tour Type
+                                        <select required>
+                                            <option value selected hidden>Tour Type</option>
+                                            <option>Group Tour</option>
+                                            <option>Family Tour</option>
+                                            <option>Honeymoon</option>
+                                            <option>Private Houses (extra 100$)</option>
+                                        </select>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="row-2">
+                                <div class="sub-row">
+                                    <label> No. of Rooms
+                                        <input type="number" placeholder="No. of Rooms" min="0" max="5">
+                                    </label> 
+                                </div>
+                                <div class="sub-row">
+                                    <label> No. of Adults
+                                        <input type="number" placeholder="No. of Adults" min="0" max="10">
+                                    </label>
+                                </div>
+                                <div class="sub-row">
+                                    <label> No. of Children
+                                        <input type="number" placeholder="No. of Children" min="0" max="10">
+                                    </label> 
+                                </div> 
+                            </div>
+                            <h1>Personal Details</h1>
+                            <div class="row">
+                                <div class="sub-row">
+                                    <label> User Name
+                                        <input type="text" placeholder="Enter Your Name" required>
+                                    </label> 
+                                </div>
+                            </div>
+                            <div class="row-3">
+                                <div class="sub-row">
+                                    <label>Email
+                                        <input type="email" placeholder="Email" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                                    </label> 
+                                </div>
+                                <div class="sub-row">
+                                    <label>Phone No.
+                                        <input type="phone" placeholder="Phone No." maxlength="10" required>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="sub-row">
+                                    <label class="address">Address
+                                        <textarea required>
+                                        </textarea>
+                                    </label> 
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="sub-row">
+                                    <input type="submit" value="Book Now"> 
+                                </div>
+                            </div>
+                            
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="book-info">
+                <div class="booking-details">
+                    <div class="book-services">
+                        <h3>Inclusions</h3>
+                        <ul>
+                            <li>&#10003; &nbsp;&nbsp;Flight</li>
+                            <li>&#10003; &nbsp;&nbsp;Wi-Fi</li>
+                            <li>&#10003; &nbsp;&nbsp;Parking & Toll Tax</li>
+                            <li>&#10003; &nbsp;&nbsp;Dinner</li>
+                            <li>&#10003; &nbsp;&nbsp;Sightseeing in Shared Vehicle</li>
+                            <li>&#10003; &nbsp;&nbsp;Driver's Allowance,Road Tax and Fuel Charges</li>
+                        </ul>
+                    </div>
+                    <div class="book-services">
+                        <h3>Exclusions</h3>
+                        <ul>
+                            <li>&#10003; &nbsp;&nbsp;Camera Fee</li>
+                            <li>&#10003; &nbsp;&nbsp;Alcoholic/ Non-Alcoholic Beverages</li>
+                            <li>&#10003; &nbsp;&nbsp;Travel Insurance</li>
+                            <li>&#10003; &nbsp;&nbsp;Tips, Laundry & Phone Calls</li>
+                            <li>&#10003; &nbsp;&nbsp;All Personal Expenses</li>
+                            <li>&#10003; &nbsp;&nbsp;Tax</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="book-info1">
+                <div class="booking-details">
+                    <div class="book-policy">
+                        <h3>Payment Policy</h3>
+                        <p>Booking Fee</p>
+                        <p><strong>From Aug 2020 to Feb 2021</strong></p>
+                        <ul>
+                            <li>&#10003; &nbsp;&nbsp;30 or more days before departure: 50%</li>
+                            <li>&#10003; &nbsp;&nbsp;29 or less days before departure: 100%</li>
+                        </ul>
+                    </div>
+                    <div class="book-policy">
+                        <h3>Cancellation Policy</h3>
+                        <p>Cancellation Charges per Person</p>
+                        <p><strong>From Aug 2020 to Feb 2021</strong></p>
+                        <ul>
+                            <li>&#10003; &nbsp;&nbsp;30 or more days before departure: 50%</li>
+                            <li>&#10003; &nbsp;&nbsp;29 or less days before departure: 100%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="book-info">
+                <div class="booking-essentials">
+                    <div class="book-policy">
+                        <h3>Activity Essentials</h3>
+                        <h4>Traveller Information</h4><br>
+                        <p>Adult: Age 5 to 80</p>
+                    </div>
+                    <div class="book-policy">
+                        <h3>Important Information</h3>
+                        <p>Confirmation will be received at time of booking.</p>
+                        <p>Minimum age is 5 years.</p>
+                        <p>Face masks required for travelers in public areas.</p>
+                        <p>Face masks required for guides in public areas.</p>
+                        <p>Hand sanitizer available to travelers and staff.</p>
+                        <p>Social distancing enforced throughout experience.</p>
+                        <p>Contactless payments for gratuities and add-ons.</p>
+                    </div>
+                </div>
+            </div><br>
+        </main>
+
+        <footer>
+            <div class="footer-img">
+                <img src="images/Footer-img.jpg" alt="footer image" width="100%" height="300px">
+                <div class="footer-info">
+                    <div class="footer-vacation">
+                        <h1 class="text">Adventour</h1>
+                        <span class="slogan"> Experience. Tourism. These are as education in themselves.</span>
+                            
+                    </div>
+                    <div class="footer-information">
+                        <h1 class="text">Information</h1>
+                        <ul class="sub-text">
+                            <li>Online Enquiry</li>
+                            <li>General Enquiries</li>
+                            <li>Booking Conditions</li>
+                            <li>Privacy and Policy</li>
+                            <li>Refund Policy</li>
+                            <li>Call Us</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-Experience">
+                        <h1 class="text">Experience</h1>
+                        <ul class="sub-text">
+                            <li>Adventure</li>
+                            <li>Hotel and Restaurant</li>
+                            <li>Beach</li>
+                            <li>Nature</li>
+                            <li>Camping</li>
+                            <li>Party</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-question">
+                        <h1 class="text">Have a Question?</h1>
+                        <ul class="sub-text">
+                            <li class="contact"><a class="mob-contact" href="tel:888-555-5555">+1 254 6576 879</a>
+                                <span class="desktop-contact">+1 254 6576 879</span></li>
+                            <li class="email"><a href="mailto:contact@adventour.com" >contact@adventour.com</a></li>
+                        </ul>
+                        <div class="share-btn">
+                            <ul>
+                                <li><a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook"></a></li>
+                                <li><a href="https://www.instagram.com/?hl=en"><img src="images/instagram.png" alt="instagram"></a></li>
+                                <li><a href="https://twitter.com/"><img src="images/twitter.png" alt="twitter"></a></li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+                
+                <div class="copyright">
+                    <p>copyright &copy; 2020. All rights reserved. </p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,849 @@
+
+/* ---------------------------Home page----------------------------------------- */
+
+img {
+    margin: 0;
+    padding: 0;
+}
+.header-info{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.header-info img {
+    object-fit: cover;
+    opacity: 0.7;
+}
+
+.header-text{
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+
+.header-text h1 {
+    font-size: 3em;
+    font-weight: 500;
+    line-height: 1.2em;
+    letter-spacing: 0.1em;
+}
+
+.header-text img {
+    opacity: 1;
+}
+
+.header-text h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.trees-image {
+    margin-top: -7%;
+    position: absolute;
+}
+
+.location-image img {
+    position: relative;
+    margin-top: 5%;
+    margin-right: 47.5%;
+    margin-left: 47.5%;
+}
+
+.location-desc h1 {
+    font-size: 2em;
+    text-align: center;
+    color: rgb(24, 23, 23);
+    letter-spacing: 0.2em;
+}
+
+.location-desc p {
+    font-size: 1.3em;
+    text-align:center;
+    margin: 0 30% 5% 30%;
+    color: rgb(24, 23, 23);
+}
+
+.locations {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;  
+}
+
+.locations img{
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px; 
+}
+
+.image {
+    position: relative;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.image:hover {
+    opacity: 1;
+}
+
+.image h1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    cursor: pointer;
+    color: #fff;
+    font-size: 2em;
+}
+
+.stay-info{
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 5%;
+}
+
+.bd-img {
+    object-fit: cover;
+    filter: blur(0.15em); 
+}
+
+.stay-text{
+    position: absolute;
+    top: 15%;
+    text-align: left;
+    width: 40%;
+    color: rgb(245, 239, 239);
+    left: 2%;
+}
+
+.stay-text h1 {
+    font-size: 2em;
+    line-height: 1.2em;
+    letter-spacing: 0.1em;
+}
+
+.stay-text p {
+    font-size: 1.3em;
+    font-weight: 500;
+    line-height: 1.5em;  
+}
+
+.stay-text a {
+    font-size: 1.3em;
+    cursor: pointer; 
+    text-decoration: none;
+    color: rgb(245, 239, 239);
+}
+
+.stay-text a:hover {
+    color: #0b2752;
+}
+
+
+.adv-info {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 40%;
+    color: rgb(24, 23, 23);
+}
+
+.adv-info h1 {
+    font-size: 2em;
+    line-height: 1.2em;
+    letter-spacing: 0.1em;
+}
+
+.adv-info p {
+    font-size: 1.3em;
+    font-weight: 500;
+    line-height: 1.5em;  
+}
+
+.part-img h1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.5em;
+    text-transform: capitalize;
+} 
+.adv-parts {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-bottom: 2em;
+}
+  
+.sub-part {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+}
+  
+.adv-parts img {
+    object-fit: cover;
+}
+  
+.part-img {
+    position: relative;
+    opacity: 0.9;
+    transition: 0.5s;
+    margin: 10px;
+}
+
+.part-img:hover {
+    opacity: 1;
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------destination ---------------------------------------*/
+
+.des-header-info{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.des-header-info img {
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.des-service img {
+    object-fit: cover;
+    opacity: 1;   
+}
+
+.des-service ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.des-service li{
+    padding: 0 1.5em;
+}
+
+.des-header-text{
+    position: absolute;
+    top: 10%;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+
+.des-header-text h1 {
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1em;
+    letter-spacing: 0.05em;
+}
+
+.des-header-text h6 {
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.expore-des {
+    display: flex;
+    justify-content: center;
+    margin-top: -4em;  
+}
+
+.expore-des ul{
+    display: inline-block;
+    list-style-type: none;
+    border-radius: 1em;
+    height: 7em;
+    width: 12em;
+    background-color: #fff;
+    padding: 1em 1em 0 1em;
+    color: rgb(68, 67, 67);
+    cursor: pointer;
+    transition: .3s;
+}
+
+.expore-des ul:hover{
+    background-image: linear-gradient(to bottom right,#9c3240, #0b2752);
+    color: #fff;
+}
+
+.expore-des li{
+    line-height: 1.5em; 
+}
+
+.expore-des img {
+    opacity: 1;
+}
+
+.price {
+    font-size: 1.5em;
+}
+
+.person {
+    font-size: 0.7em;
+}
+
+.loc-sort {
+    margin: 2em 4em;
+    text-align: center;
+}
+
+select {
+    background-color: rgb(216, 212, 212);
+    height: 2em;
+    width: 11em;
+    border: none;
+    font-size: 1.1em;
+    color: rgb(83, 81, 81);
+    box-shadow: 1px 5px 8px 0 rgb(94, 92, 92);
+    border-radius: 0.2em;
+    text-transform: uppercase;
+    margin: 1em 1.5em;
+}
+
+.pop-tour {
+    margin: 2em 4em;
+}
+
+.pop-tour a{
+    text-decoration: none;
+}
+
+table{
+    border-collapse: collapse;
+    display: block;
+    line-height: 1.7em;
+    width: 100%;
+    min-width: 100%;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+    font-size: 1em;
+    background-image: url(../Images/usa-table.jpg);    
+}
+
+th {
+    color: rgb(0, 0, 0);
+}
+
+tr {
+    color: rgb(39, 39, 39);
+    font-weight: bold;
+}
+
+thead, .col-1{
+    text-align: left;
+}
+
+th,td{
+    border: 1px solid #cfcfcf;
+    text-align: center;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    background-color:rgba(255, 255, 255, 0.4)
+}
+
+.pop-tour button {
+    height: 2.5em;
+    width: 7em;
+    border-radius: 0.5em;
+    border: none;
+    background-image: linear-gradient(to  right,#9c3240, #0b2752);
+    cursor: pointer;
+    color: #fff;
+}
+
+.option {
+    font-size: 0.8em;
+}
+
+.tour-pack-title h1{
+    margin: 1em 4em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color:rgb(24, 23, 23);
+}
+
+.pack-sort {
+    display: flex;
+    justify-content: space-between;
+    margin:0em 5em;
+    background-color: #d6d4d4;
+    padding: 0.5em 2em;
+    border-radius: 2em;
+    color: rgb(92, 91, 91);
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: 550;
+}
+
+.pack-sort p:hover{
+    color: #9c3240;
+}
+
+.sort-type {
+    display: flex;
+    padding: 0 1em;
+}
+.sort-type a{
+    padding: 1em 2em;
+    color: rgb(92, 91, 91);
+    text-decoration: none;
+    transition: ease-in 0.2s;
+}
+
+.sort-type a:hover {
+    color: #9c3240;
+    text-decoration: underline;
+}
+
+.tour-nums {
+    margin: 2em 4em;
+    
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    border-radius: 1em;
+    background-color: #f8f7f7;
+}
+
+.tour-img {
+    width: 20%;
+    height: auto; 
+}
+
+.tour-img img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 1em;
+}
+
+.tour-desc {
+    padding: 0.5em 1em;
+    width: 50%;
+    color: rgb(24, 23, 23);
+    margin-bottom: 1em;
+}
+
+.tour-desc h1{
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-size: 2em;
+    color: #9c3240;
+}
+
+.tour-desc h4{
+    margin-top: 0;
+    font-size: 1em;
+}
+
+.city {
+    color: #9c3240;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    justify-content: flex-end;
+}
+
+.city-name {
+    color: rgb(109, 106, 106);
+    font-size: 0.9em;
+    letter-spacing: 0.03em;
+    font-weight: bold;
+}
+
+.tour-price {
+    margin-top: 1em;
+    background-image: linear-gradient(to  right top,#9c3240, #0b2752);
+    height: 6em;
+    padding: 0.5em 1em 0.5em 4em;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 15% 50%);
+}
+
+.tour-price h1{
+   font-size: 1.5em;
+   color: #fff;
+}
+
+.tour-price h4{
+    font-size: 0.9em;
+    color: #fff;
+}
+
+.adv-type {
+    margin-top: 1.5em;
+    margin-bottom: 4em;
+    margin-left: 4em;
+}
+
+.adv-type a{
+    text-decoration: none;
+    border: 1px solid rgb(88, 86, 86);
+    border-radius: 1em;
+    padding: 0.5em 1em;
+    margin:1em 0.5em;
+    font-size: 1em;
+    color: rgb(88, 86, 86);
+    transition: ease-in-out 0.5s;
+    font-weight: bold;
+}
+
+.adv-type a:hover {
+    color: #fff;
+    background-image: radial-gradient(#9c3240, #0b2752);
+}
+
+.tour-facility{
+    margin-top: -2em;
+    margin-bottom: -4em;
+    box-sizing: border-box;
+}
+
+.tour-facility ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 2em;
+}
+
+.tour-facility li{
+    padding:0 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tour-facility h6 {
+    color: rgb(88,86,86);
+    font-size: 0.9em;
+    margin-top: -0.01em;  
+}
+
+.tour-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5em;
+    font-size: 1em;
+    font-weight: bold; 
+}
+
+.tour-detail a{
+    text-decoration: none;
+    border-radius: 1em;
+    padding: 0.5em 1em;
+    margin-top:1em;
+    letter-spacing: 0.01em;
+    transition: ease-in-out 0.3s;
+    text-transform: uppercase;   
+}
+
+.sub-detail {
+    width: 7em;
+    border: 1px solid rgb(88, 86, 86);
+    text-align: center;
+    background-color: rgb(83, 82, 82);
+    color: #fff;
+}
+
+.view-detail {
+    color: rgb(88, 86, 86);
+}
+
+.view-detail:hover {
+    color: #9c3240;
+}
+
+.sub-detail:hover {
+    color: #fff;
+    background-image: radial-gradient(#9c3240, #0b2752);
+}
+
+.des-loc {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 2em 4em;
+}
+
+.des-loc img{
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px; 
+}
+
+.des-image {
+    position: relative;
+    opacity: 0.9;
+}
+
+.des-image h1 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.more-desc {
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.more-desc a{
+    color: rgb(0, 0, 0);
+    font-size: 0.7em;  
+}
+
+.more-desc a:hover {
+    color: #0b2752;
+}
+
+.usa-desc h1 {
+    font-size: 2em;
+    text-align: center;
+    color: rgb(24, 23, 23);
+    letter-spacing: 0.2em;
+}
+
+.usa-desc p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-align:center;
+    margin: 0 25%;
+    color: rgb(24, 23, 23);
+}
+.usa-video {
+    width: 50%;
+    margin: 2em auto;
+    height: 100%;
+}
+.usa-video video {
+    border: none;
+    max-width: 100%;
+}
+
+/* ------------------------------------------------------------------------------------- */
+
+
+@media only all and (max-width: 1024px) {
+
+    /*------------------ home------------------------- */
+
+    .location-desc p {
+        margin: 0 25% 10% 25%;
+    }
+
+    .stay-text,.adv-info{
+        width: 40%;
+        padding: 1em;
+    }
+
+/* ------------------------------------------------------------------------------------- */
+
+/* ---------------------destination -------------------------------*/
+
+    select {
+        margin: 0.5em;
+    }
+    .tour-nums{
+        flex-direction: column;
+    }
+    
+    .tour-img {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        height: auto;
+        border: none;
+        margin: 0 auto;
+    }
+    
+    .tour-desc {
+        width: 100%;
+        text-align: center;
+        padding: 0.5em 0;
+    }
+
+    .tour-price {
+        width: 100%;
+        text-align: center;
+        clip-path: inset(0 0% 0 0%);
+        margin: 1em 0;
+        padding:0.5em 1em;
+        box-sizing: border-box;
+    }
+
+    .adv-type {
+        margin-left: 0;
+    }
+    
+    .adv-type a{
+        margin:0.5em;
+    }
+
+    .tour-facility img{
+        margin-left: 0.2em;
+    }
+
+    .tour-facility ul{
+        justify-content: center;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .tour-facility li {
+        padding: 0 0.5em;
+    }
+
+    .tour-detail {
+        flex-direction: row;
+        margin-bottom: 0.5em; 
+    }
+}
+
+/*-------------------------------------------------------------------------------------- */
+
+@media only all and (max-width: 768px) {
+    .location-desc p {
+        margin: 0 20% 10% 20%;
+    }
+
+    .stay-text,.adv-info{
+        width: 90%;
+        padding: 1em;
+    }
+
+    /* ---------destination ----------------*/
+    
+    .des-service li{
+        padding:  0 1em; 
+    }
+    
+    .des-header-text h1 {
+        font-size: 2em;
+    }
+
+    .expore-des ul {
+        padding: 0.5em 0.5em 0 0.5em;
+    }
+
+    table, thead, tbody, th, td, tr {
+        display: block; 
+        background-image: none;  
+	}    
+	
+	thead tr {    
+		position: absolute;   
+		top: -9999px;   
+		left: -9999px;  
+	}    
+	
+	tr { 
+		border: 1px solid #DAD7D7; 
+	}    
+	
+	td:not(.col-1){
+	    border: none;  
+		border-bottom: 1px solid #DAD7D7;    
+		position: relative;   
+        padding-left: 60%;
+        text-align: right;
+	}
+	
+	.col-1{
+		display: flex;
+        justify-content: center;
+	}
+	
+	td:before {   
+		position: absolute;
+		top: 10px;   
+		left: 10px;
+		text-align: justify;
+		
+	}
+
+	td:nth-of-type(1):before { 
+		content: " "; 
+	}  
+	
+	td:nth-of-type(2):before { 
+		content: "PRICE(person on twin sharing)"; 
+	} 
+	
+	td:nth-of-type(3):before { 
+		content: "NIGHTS"; 
+	}
+	
+	td:nth-of-type(4):before { 
+		content: "INCLUSIONS"; 
+    }
+    td:nth-of-type(5):before { 
+		content: " "; 
+    }
+
+    .tour-img {
+        width: 60%;
+    }
+    .adv-type a{
+        display: block;
+    }
+
+    .tour-price {
+        width: 100%;
+    }
+    
+    .pack-sort {
+        justify-content: space-evenly;
+    }
+    .sort-type {
+        flex-direction: column;
+    }
+
+    .sort-type a{
+        padding: 0.4em;
+    }
+
+    .usa-desc p {
+        margin: 0 5%;
+    }
+	
+    /* ------------------------------------------------------------------------------------- */
+}
+
+
+
+
+
+
+
+
+
